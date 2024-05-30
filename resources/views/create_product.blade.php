@@ -6,7 +6,6 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">{{ __('Create Product') }}</div>
-
                     <div class="card-body">
                         <form action="{{ route('store_product') }}" method="POST" enctype="multipart/form-data">
                             @csrf
